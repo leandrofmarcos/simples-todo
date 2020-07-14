@@ -1,0 +1,27 @@
+.topo {
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding: 0px;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    list-style-type: none;
+    background: #eee;
+    font-size: 1.2rem;
+    transition: 0.2s;
+}
+
+#btnAdd{
+    margin-top: 20px;
+}
+
+ul li:hover {
+    background: rgb(241, 241, 166);
+}
